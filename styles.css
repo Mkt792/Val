@@ -1,0 +1,118 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and background */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7; /* Light gray background */
+    color: #333; /* Dark text color */
+    text-align: center;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+/* Hero section */
+.hero {
+    background-image: url('IMG_6909.JPG'); /* Replace 'your-image.jpg' with your romantic image */
+    background-size: cover;
+    background-position: center;
+    padding: 100px 20px;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    font-weight: lighter;
+    line-height: 1.6;
+}
+
+/* Bollywood Lyrics Section */
+.lyrics {
+    margin: 40px auto;
+    background-color: #ffcccb; /* Soft pink background for lyrics */
+    padding: 40px;
+    border-radius: 10px;
+    width: 70%;
+}
+
+.lyrics h2 {
+    font-size: 2rem;
+    color: #e60000; /* Bold red text for song title */
+}
+
+.lyrics p {
+    font-size: 1.5rem;
+    font-style: italic;
+}
+
+/* Story Section */
+.story {
+    padding: 40px 20px;
+    background-color: #fff8f0; /* Light cream color for the love story section */
+}
+
+.story h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #e60000;
+}
+
+.story p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin: 20px 0;
+    font-weight: lighter;
+}
+
+/* Footer Section */
+.footer {
+    background-color: #e60000; /* Bold red for the footer */
+    color: white;
+    padding: 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.footer p {
+    margin: 0;
+}
+
+/* Add some responsiveness for smaller screens */
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .hero p {
+        font-size: 1.2rem;
+    }
+
+    .lyrics, .story {
+        width: 90%;
+        padding: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero {
+        padding: 50px 10px;
+    }
+
+    .hero h1 {
+        font-size: 1.8rem;
+    }
+
+    .hero p {
+        font-size: 1.1rem;
+    }
+}
